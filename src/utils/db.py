@@ -26,7 +26,7 @@
 
 from sqlmodel import SQLModel, create_engine, Session
 
-from config import setting
+from src.utils.config import setting
 engine= create_engine(setting.MSSQL_URI)
 
 
